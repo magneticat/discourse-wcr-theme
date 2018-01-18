@@ -8,10 +8,10 @@ export default {
   initialize(container) {
 
     withPluginApi('0.8.8', (api) => {
-      api.createWidget('wcr-header-search', {
+      api.createWidget('wcrsearch', {
         tagName: 'div.wcr-header-search',
         html() {
-          return "<!-- wcr search -->";
+          return "wcrsearch";
         }
       });
     });
