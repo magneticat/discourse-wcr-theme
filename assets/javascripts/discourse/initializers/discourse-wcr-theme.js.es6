@@ -10,7 +10,7 @@ export default {
       api.createWidget('wcrsearch', {
         tagName: 'div.wcrsearch',
         html() {
-          return "<!-- search placeholder -->";
+          return "";
         }
       });
     });
